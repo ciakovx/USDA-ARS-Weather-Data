@@ -1,0 +1,187 @@
+date,temp_maximum,temp_minimum,temp_range,temp_set_max,precip_time_of_beginning,precip_time_of_ending,precip_amount,precip_snowfall_in_inches,precip_snow_depth_tobs,wind_dir_tobs,weather_state_tobs,wind_dir_day,weather_state_day,month,year,location,county,state,lat,long,date_conv,precip_time_of_beginning_conv
+1,66,41,25,44,NA,11:00AM,0.21,NA,NA,N,Cloudy,N,Cloudy,January,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-01-01,NA
+2,67,38,29,43,NA,NA,NA,NA,NA,NW,Cloudy,NW,Partly Cloudy,January,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-01-02,NA
+3,59,22,33,45,NA,NA,NA,NA,NA,SE,Clear,SE,Clear,January,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-01-03,NA
+4,53,31,22,50,NA,NA,NA,NA,NA,NA,Cloudy,S,Clear,January,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-01-04,NA
+5,60,36,24,57,NA,NA,NA,NA,NA,SE,Cloudy,SE,Cloudy,January,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-01-05,NA
+6,57,34,23,34,NA,NA,T,NA,NA,SE,Cloudy,NE,Cloudy,January,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-01-06,NA
+7,34,14,20,19,NA,NA,0.05,0.5,NA,N,Cloudy,N,Cloudy,January,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-01-07,NA
+8,19,10,9,16,NA,NA,0.18,1.8,2.2999999999999998,N,Cloudy,N,Cloudy,January,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-01-08,NA
+9,21,2,19,12,NA,NA,0.44,4.4000000000000004,0.7,N,Partly Cloud,N,Partly Cloudy,January,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-01-09,NA
+10,22,-4,27,NA,NA,NA,T,T,6.7,N,Cloudy,N,Cloudy,January,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-01-10,NA
+11,29,13,16,19,NA,NA,NA,T,6.2,S,Cloudy,S,Cloudy,January,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-01-11,NA
+12,33,19,14,28,NA,NA,NA,NA,6,NE,Cloudy,N,Cloudy,January,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-01-12,NA
+13,30,27,9,27,NA,NA,NA,NA,NA,NW,Cloudy,NW,Cloudy,January,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-01-13,NA
+14,26,16,10,16,NA,NA,NA,NA,NA,NW,Clear,NW,Clear,January,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-01-14,NA
+15,22,10,12,12,NA,NA,0.15,1.5,6.5,N,Clear,N,Cloudy,January,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-01-15,NA
+16,10,-3,13,-1,NA,NA,0.05,0.5,NA,NW,Clear,N,Cloudy,January,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-01-16,NA
+17,3,-4,7,-3,NA,NA,0.2,0.2,NA,N,Cloudy,N,Cloudy,January,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-01-17,NA
+18,22,-13,35,NA,NA,NA,0.3,0.3,NA,N,Clear,N,Clear,January,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-01-18,NA
+19,26,2,24,18,NA,NA,NA,NA,NA,SE,Cloudy,SE,Cloudy,January,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-01-19,NA
+20,26,7,19,20,NA,NA,0.15,1.5,NA,N,Cloudy,N,Cloudy,January,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-01-20,NA
+21,9,3,6,5,NA,NA,0.2,2,NA,N,Cloudy,N,Partly Cloudy,January,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-01-21,NA
+22,17,-17,34,-11,NA,NA,0.2,2,NA,W,Cloudy,W,Cloudy,January,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-01-22,NA
+23,31,-11,42,-1,NA,NA,NA,NA,NA,W,Clear,W,Clear,January,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-01-23,NA
+24,34,0,34,13,NA,NA,NA,NA,NA,W,Clear,W,Clear,January,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-01-24,NA
+25,41,1,40,7,NA,NA,NA,NA,NA,E,Clear,SE,Partly Cloudy,January,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-01-25,NA
+26,34,7,27,33,NA,NA,NA,NA,NA,NW,Cloudy,N,Cloudy,January,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-01-26,NA
+27,27,21,6,23,NA,NA,NA,NA,NA,N,Cloudy,N,Cloudy,January,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-01-27,NA
+28,30,13,17,13,NA,NA,NA,NA,NA,N,Partly Cloudy,N,Partly Cloudy,January,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-01-28,NA
+29,36,11,25,11,NA,NA,NA,NA,NA,W,Clear,NW,Clear,January,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-01-29,NA
+30,37,11,26,NA,NA,NA,NA,NA,NA,SW,Partly Cloudy,NW,Cloudy,January,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-01-30,NA
+31,46(?),9,37,11,NA,NA,NA,NA,NA,N,Clear,SW,Clear,January,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-01-31,NA
+1,96,67,29,95,NA,NA,NA,NA,NA,S,Clear,S,Clear,August,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-08-01,NA
+2,103,71,32,100,NA,NA,NA,NA,NA,SE,Clear,SE,Clear,August,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-08-02,NA
+3,105,75,30,102,NA,NA,NA,NA,NA,S,Clear,S,Clear,August,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-08-03,NA
+4,105,79,26,96,NA,NA,NA,NA,NA,SW,Clear,SW,Clear,August,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-08-04,NA
+5,97,73,24,89,NA,DNP,T,NA,NA,S,Clear,S,Clear,August,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-08-05,NA
+6,95,69,26,93,NA,NA,NA,NA,NA,S,Clear,S,Clear,August,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-08-06,NA
+7,99,75,24,97,NA,NA,NA,NA,NA,S,Clear,S,Clear,August,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-08-07,NA
+8,100,74,26,98,NA,NA,NA,NA,NA,S,Clear,S,Clear,August,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-08-08,NA
+9,101,72,29,98,NA,NA,NA,NA,NA,W,Clear,W,Clear,August,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-08-09,NA
+10,103,77,26,99,NA,NA,NA,NA,NA,SW,Clear,SW,Clear,August,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-08-10,NA
+11,99,75,24,91,NA,NA,NA,NA,NA,E,Clear,E,Clear,August,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-08-11,NA
+12,105,75,30,96,NA,NA,NA,NA,NA,S,Clear,S,Clear,August,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-08-12,NA
+13,106,78,28,102,NA,NA,NA,NA,NA,SW,Clear,SW,Clear,August,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-08-13,NA
+14,104,79,25,99,NA,NA,NA,NA,NA,NE,Clear,NE,Clear,August,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-08-14,NA
+15,104,77,24,102,NA,DNA,T,NA,NA,S,Partly Cloudy,S,Partly Cloudy,August,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-08-15,NA
+16,104,73,31,96,NA,NA,NA,NA,NA,N,Partly Cloudy,N,Partly Cloudy,August,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-08-16,NA
+17,96,71,25,90,NA,DNP,0.12,NA,NA,S,Clear,S,Clear,August,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-08-17,NA
+18,98,77,21,93,NA,NA,NA,NA,NA,SE,Partly Cloudy,SE,Partly Cloudy,August,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-08-18,NA
+19,96,69,27,91,NA,NA,NA,NA,NA,E,Clear,E,Clear,August,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-08-19,NA
+20,91,60,23,85,NA,DNA,1.25,NA,NA,S,Clear,S,Clear,August,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-08-20,NA
+21,92,71,21,85,NA,NA,NA,NA,NA,SE,Clear,SE,Clear,August,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-08-21,NA
+22,85,69,16,73,NA,DNA,0.49,NA,NA,NE,Partly Cloudy,NE,Partly Cloudy,August,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-08-22,NA
+23,87,66,21,83,NA,DNP,0.73,NA,NA,SE,Partly Cloudy,SE,Partly Cloudy,August,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-08-23,NA
+24,83,65,18,68,NA,PM,1.25,NA,NA,SE,Cloudy,SE,Cloudy,August,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-08-24,NA
+25,84,65,19,82,NA,NA,NA,NA,NA,S,Clear,S,Clear,August,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-08-25,NA
+26,87,66,21,85,NA,NA,NA,NA,NA,S,Clear,S,Clear,August,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-08-26,NA
+27,89,66,23,86,NA,NA,NA,NA,NA,S,Clear,S,Clear,August,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-08-27,NA
+28,91,65,26,87,NA,NA,NA,NA,NA,S,Clear,S,Clear,August,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-08-28,NA
+29,92,68,24,87,NA,NA,NA,NA,NA,S,Partly Cloudy,S,Partly Cloudy,August,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-08-29,NA
+30,90,69,21,87,NA,NA,NA,NA,NA,S,Clear,S,Clear,August,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-08-30,NA
+31,94,76,18,91,NA,NA,NA,NA,NA,S,Clear,S,Clear,August,1930,Stillwater,Payne,Okla,36  ̊ 10  ̊,97  ̊ 50  ̊,1930-08-31,NA
+1,49,22,27,32,NA,NA,NA,NA,NA,SW,Clear,SW,Clear,January,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-01-01,NA
+2,58,28,30,28,NA,NA,NA,NA,NA,N,Clear,S,Clear,January,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-01-02,NA
+3,44,20,24,21,NA,NA,NA,NA,NA,NW,Clear,NE,Clear,January,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-01-03,NA
+4,50,20,30,38,NA,NA,NA,NA,NA,SE,Partly Cloudy,S,Clear,January,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-01-04,NA
+5,57,37,20,40,NA,NA,NA,NA,NA,SW,Partly Cloudy,S,Cloudy,January,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-01-05,NA
+6,63,40,23,57,NA,DN,T,NA,NA,SE,Cloudy,S,Partly Cloudy,January,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-01-06,NA
+7,57,47,10,48,0.34027777777777773,DN,0.52,NA,NA,NW,Cloudy,SE,Cloudy,January,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-01-07,1935-01-07T14:10:00Z
+8,57,39,18,40,NA,NA,NA,NA,NA,SW,Partly Cloudy,NW,Partly Cloudy,January,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-01-08,NA
+9,60,39,21,42,NA,NA,NA,NA,NA,NW,Cloudy,NW,Clear,January,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-01-09,NA
+10,58,34,24,37,NA,NA,NA,NA,NA,NE,Partly Cloudy,NW,Clear,January,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-01-10,NA
+11,57,37,20,48,NA,NA,NA,NA,NA,SE,Partly Cloudy,SE,Partly Cloudy,January,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-01-11,NA
+12,64,38,26,39,NA,NA,NA,NA,NA,N,Cloudy,SE,Partly Cloudy,January,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-01-12,NA
+13,43,31,12,31,NA,NA,NA,NA,NA,SE,Cloudy,NE,Partly Cloudy,January,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-01-13,NA
+14,47,31,16,47,NA,NA,NA,NA,NA,SE,Cloudy,SE,Cloudy,January,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-01-14,NA
+15,65,47,18,63,NA,DN,T,NA,NA,SW,Cloudy,SE,Cloudy,January,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-01-15,NA
+16,74,39,35,39,NA,NA,NA,NA,NA,NE,Clear,NW,Partly Cloudy,January,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-01-16,NA
+17,50,39,11,46,NA,NA,NA,NA,NA,SE,Cloudy,SE,Cloudy,January,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-01-17,NA
+18,53,46,7,53,0.4479166666666667,DN,0.08,NA,NA,S,Cloudy,SE,Cloudy,January,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-01-18,1935-01-18T16:45:00Z
+19,53,24,29,25,NA,NA,NA,NA,NA,N,Cloudy,NW,Cloudy,January,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-01-19,NA
+20,25,-1,26,-1,0.4583333333333333,DN,T,T,NA,N,Clear,N,Cloudy,January,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-01-20,1935-01-20T17:00:00Z
+21,15,-1,16,7,NA,NA,NA,NA,NA,SW,Clear,N,Clear,January,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-01-21,NA
+22,38,7,31,21,NA,NA,NA,NA,NA,N,Cloudy,S,Clear,January,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-01-22,NA
+23,25,15,10,16,NA,NA,NA,NA,NA,E,Partly Cloudy,NE,Clear,January,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-01-23,NA
+24,34,15,19,28,NA,NA,NA,NA,NA,SW,Clear,S,Clear,January,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-01-24,NA
+25,64,28,36,33,NA,NA,NA,NA,NA,NE,Clear,SW,Clear,January,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-01-25,NA
+26,60,28,323,29,NA,NA,NA,NA,NA,NE,Cloudy,NW,Clear,January,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-01-26,NA
+27,39,26,13,34,NA,NA,NA,NA,NA,SW,Cloudy,NE,Partly Cloudy,January,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-01-27,NA
+28,52,26,26,28,NA,NA,NA,NA,NA,NE,Clear,SW,Partly Cloudy,January,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-01-28,NA
+29,53,27,26,30,NA,NA,NA,NA,NA,E,Cloudy,NE,Clear,January,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-01-29,NA
+30,56,30,26,42,NA,NA,NA,NA,NA,SW,Cloudy,SE,Clear,January,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-01-30,NA
+31,62,33,29,33,NA,NA,NA,NA,NA,NE,Cloudy,SW,Partly Cloudy,January,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-01-31,NA
+1,98,78,20,80,NA,NA,NA,NA,NA,S,Clear,S,Clear,August,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-08-01,NA
+2,97,78,19,79,NA,NA,NA,NA,NA,SW,Clear,SW,Clear,August,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-08-02,NA
+3,94,78,16,86,NA,NA,NA,NA,NA,S,Clear,S,Partly Cloudy,August,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-08-03,NA
+4,96,77,19,79,NA,NA,NA,NA,NA,SW,Clear,SW,Clear,August,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-08-04,NA
+5,98,78,20,82,NA,NA,NA,NA,NA,SW,Clear,SW,Clear,August,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-08-05,NA
+6,103,81,22,78,NA,NA,NA,NA,NA,SW,Clear,SW,Clear,August,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-08-06,NA
+7,105,77,28,76,NA,NA,NA,NA,NA,SE,Clear,SW,Clear,August,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-08-07,NA
+8,103,74,29,73,NA,NA,NA,NA,NA,SW,Clear,SE,Clear,August,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-08-08,NA
+9,104,70,34,84,NA,NA,NA,NA,NA,SW,Clear,SW,Clear,August,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-08-09,NA
+10,104,74,30,94,NA,NA,NA,NA,NA,SE,Clear,SW,Clear,August,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-08-10,NA
+11,106,72,34,81,NA,NA,NA,NA,NA,SE,Clear,SE,Clear,August,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-08-11,NA
+12,97,80,17,72,0.9479166666666666,DN,T,NA,NA,NE,Partly Cloudy,SW,Partly Cloudy,August,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-08-12,1935-08-13T03:45:00Z
+13,91,71,20,65,NA,NA,NA,NA,NA,E,Clear,NE,Partly Cloudy,August,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-08-13,NA
+14,93,64,29,72,NA,NA,NA,NA,NA,SE,Clear,SE,Clear,August,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-08-14,NA
+15,96,70,26,77,NA,NA,NA,NA,NA,SE,Clear,SE,Clear,August,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-08-15,NA
+16,99,76,23,79,NA,NA,NA,NA,NA,S,Clear,S,Clear,August,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-08-16,NA
+17,100,76,23,79,NA,NA,NA,NA,NA,SW,Clear,S,Clear,August,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-08-17,NA
+18,101,75,22,80,NA,NA,NA,NA,NA,SW,Clear,SW,Clear,August,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-08-18,NA
+19,101,79,26,79,NA,NA,NA,NA,NA,S,Clear,S,Clear,August,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-08-19,NA
+20,103,77,26,77,0.7708333333333334,0.77430555555555547,T,NA,NA,NE,Cloudy,SW,Clear,August,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-08-20,1935-08-20T23:30:00Z
+21,92,77,15,73,0.7013888888888888,0.70833333333333337,T,NA,NA,SE,Cloudy,SE,Partly Cloudy,August,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-08-21,1935-08-21T21:50:00Z
+22,97,71,26,76,NA,NA,NA,NA,NA,SE,Clear,SE,Clear,August,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-08-22,NA
+23,95,75,20,72,NA,NA,NA,NA,NA,E,Clear,E,Clear,August,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-08-23,NA
+24,94,72,22,84,NA,NA,NA,NA,NA,SE,Clear,SE,Clear,August,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-08-24,NA
+25,93,68,25,79,NA,NA,NA,NA,NA,SE,Cloudy,SE,Partly Cloudy,August,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-08-25,NA
+26,97,79,18,72,0.59375,0.625,T,NA,NA,SE,Clear,SW,Partly Cloudy,August,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-08-26,1935-08-26T19:15:00Z
+27,92,71,21,61,NA,NA,NA,NA,NA,NE,Clear,NE,Clear,August,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-08-27,NA
+28,88,58,30,64,0.7743055555555555,0.78819444444444453,T,NA,NA,SE,Cloudy,NE,Partly Cloudy,August,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-08-28,1935-08-28T23:35:00Z
+29,68,64,4,59,NA,0.30208333333333331,3.08,NA,NA,N,Cloudy,SE,Cloudy,August,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-08-29,NA
+30,78,58,20,61,NA,NA,NA,NA,NA,NE,Clear,NE,Clear,August,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-08-30,NA
+31,83,60,23,7,NA,NA,NA,NA,NA,SE,Clear,SE,Clear,August,1935,Stillwater,Payne,Okla,36  ̊ 10',97  ̊ 50',1935-08-31,NA
+1,35,19,16,21,0.8125,DYL,0.03,0.25,NA,NW,PartlyCloudy,NW,PartlyCloudy,January,1940,Stillwater,Payne,Okla,36,97,1940-01-01,1940-01-02T01:30:00Z
+2,24,15,19,22,NA,NA,NA,NA,NA,SE,Cloudy,SE,Cloudy,January,1940,Stillwater,Payne,Okla,36,97,1940-01-02,NA
+3,34,22,12,26,0.5625,DYL,NA,NA,NA,SE,Cloudy,SE,Cloudy,January,1940,Stillwater,Payne,Okla,36,97,1940-01-03,1940-01-03T19:30:00Z
+4,32,21,11,25,NA,NA,0.27,3,3,NE,Cloudy,NE,Cloudy,January,1940,Stillwater,Payne,Okla,36,97,1940-01-04,NA
+5,25,6,19,10,0.875,NA,NA,1,4,NE,Cloudy,NE,Cloudy,January,1940,Stillwater,Payne,Okla,36,97,1940-01-05,1940-01-06T03:00:00Z
+6,22,9,13,20,NA,0.79166666666666663,7.0000000000000007E-2,2,6,NE,Cloudy,NE,Cloudy,January,1940,Stillwater,Payne,Okla,36,97,1940-01-06,NA
+7,20,5,15,5,NA,NA,0.28999999999999998,NA,6,NW,PartlyCloudy,NW,PartlyCloudy,January,1940,Stillwater,Payne,Okla,36,97,1940-01-07,NA
+8,27,-5,32,15,NA,NA,NA,NA,6,NW,Clear,NW,Clear,January,1940,Stillwater,Payne,Okla,36,97,1940-01-08,NA
+9,40,15,25,35,NA,NA,NA,NA,4,SE,Cloudy,SE,PartlyCloudy,January,1940,Stillwater,Payne,Okla,36,97,1940-01-09,NA
+10,39,32,7,31,NA,NA,NA,NA,2.5,NW,Cloudy,NW,Cloudy,January,1940,Stillwater,Payne,Okla,36,97,1940-01-10,NA
+11,34,25,9,30,NA,NA,NA,NA,1,NW,Cloudy,NW,Cloudy,January,1940,Stillwater,Payne,Okla,36,97,1940-01-11,NA
+12,39,17,22,34,NA,NA,NA,NA,0.38,NW,Cloudy,NW,Cloudy,January,1940,Stillwater,Payne,Okla,36,97,1940-01-12,NA
+13,42,27,15,25,0.5416666666666666,DYL,NA,NA,0.38,NW,Cloudy,NW,Cloudy,January,1940,Stillwater,Payne,Okla,36,97,1940-01-13,1940-01-13T19:00:00Z
+14,35,14,21,27,NA,NA,0.01,0.12,0.5,NW,Clear,NW,Clear,January,1940,Stillwater,Payne,Okla,36,97,1940-01-14,NA
+15,41,14,27,34,NA,NA,NA,NA,T,NW,Clear,NW,Clear,January,1940,Stillwater,Payne,Okla,36,97,1940-01-15,NA
+16,51,26,25,34,NA,NA,NA,NA,T,SW,Clear,SW,Clear,January,1940,Stillwater,Payne,Okla,36,97,1940-01-16,NA
+17,45,22,23,20,NA,NA,NA,NA,T,NE,Clear,NE,Clear,January,1940,Stillwater,Payne,Okla,36,97,1940-01-17,NA
+18,20,7,13,0,0.3333333333333333,0.45833333333333331,NA,NA,T,NW,Cloudy,NE,Cloudy,January,1940,Stillwater,Payne,Okla,36,97,1940-01-18,1940-01-18T14:00:00Z
+19,23,-1,24,18,NA,NA,T,NA,T,NW,PartlyCloudy,NW,Clear,January,1940,Stillwater,Payne,Okla,36,97,1940-01-19,NA
+20,25,5,20,18,NA,NA,NA,NA,T,NW,Clear,NW,Clear,January,1940,Stillwater,Payne,Okla,36,97,1940-01-20,NA
+21,18,4,14,11,NA,NA,NA,NA,T,NW,PartlyCloudy,NW,PartlyCloudy,January,1940,Stillwater,Payne,Okla,36,97,1940-01-21,NA
+22,27,8,19,22,0.75,DN,NA,NA,T,NW,PartlyCloudy,NW,PartlyCloudy,January,1940,Stillwater,Payne,Okla,36,97,1940-01-22,1940-01-23T00:00:00Z
+23,22,11,11,19,NA,NA,0.01,0.2,0.2,NW,Clear,NW,Clear,January,1940,Stillwater,Payne,Okla,36,97,1940-01-23,NA
+24,11,6,5,9,NA,NA,NA,NA,T,NW,Cloudy,NW,PartlyCloudy,January,1940,Stillwater,Payne,Okla,36,97,1940-01-24,NA
+25,15,1,14,11,NA,NA,NA,NA,T,NW,PartlyCloudy,NW,Clear,January,1940,Stillwater,Payne,Okla,36,97,1940-01-25,NA
+26,25,6,19,15,NA,NA,NA,NA,T,NW,Clear,NW,Clear,January,1940,Stillwater,Payne,Okla,36,97,1940-01-26,NA
+27,37,5,32,32,NA,NA,NA,NA,T,SW,Clear,SW,Clear,January,1940,Stillwater,Payne,Okla,36,97,1940-01-27,NA
+28,50,17,33,40,NA,NA,NA,NA,T,SW,PartlyCloudy,SW,PartlyCloudy,January,1940,Stillwater,Payne,Okla,36,97,1940-01-28,NA
+29,51,20,31,48,NA,NA,NA,NA,NA,NW,Clear,NW,Clear,January,1940,Stillwater,Payne,Okla,36,97,1940-01-29,NA
+30,49,19,30,39,NA,NA,NA,NA,NA,NW,Clear,NW,Clear,January,1940,Stillwater,Payne,Okla,36,97,1940-01-30,NA
+31,56,23,33,50,NA,NA,NA,NA,NA,SW,Clear,SW,Clear,January,1940,Stillwater,Payne,Okla,36,97,1940-01-31,NA
+1,100,71,29,91,NA,NA,NA,NA,NA,SE,Clear,SE,Clear,August,1940,Stillwater,Payne,Okla,36,97,1940-08-01,NA
+2,99,73,26,92,NA,NA,NA,NA,NA,SE,Clear,SE,Clear,August,1940,Stillwater,Payne,Okla,36,97,1940-08-02,NA
+3,101,75,26,92,0.5625,DN,NA,NA,NA,SE,Cloudy,SE,Clear,August,1940,Stillwater,Payne,Okla,36,97,1940-08-03,1940-08-03T18:30:00Z
+4,99,73,26,89,NA,NA,0.06,NA,NA,SE,Partly Cloudy,SE,Clear,August,1940,Stillwater,Payne,Okla,36,97,1940-08-04,NA
+5,97,74,23,71,0.6458333333333334,0.76388888888888884,NA,NA,NA,NE,Cloudy,SE,PartlyCloudy,August,1940,Stillwater,Payne,Okla,36,97,1940-08-05,1940-08-05T20:30:00Z
+6,90,67,23,82,NA,NA,0.12,NA,NA,NE,Clear,NE,Clear,August,1940,Stillwater,Payne,Okla,36,97,1940-08-06,NA
+7,92,67,25,86,NA,NA,NA,NA,NA,SE,Partly Cloudy,SE,PartlyCloudy,August,1940,Stillwater,Payne,Okla,36,97,1940-08-07,NA
+8,90,68,20,71,0.6354166666666666,DN,NA,NA,NA,NE,Cloudy,SE,PartlyCloudy,August,1940,Stillwater,Payne,Okla,36,97,1940-08-08,1940-08-08T20:15:00Z
+9,83,66,17,76,NA,NA,1.58,NA,NA,NE,Partly Cloudy,NE,PartlyCloudy,August,1940,Stillwater,Payne,Okla,36,97,1940-08-09,NA
+10,86,64,22,80,NA,NA,NA,NA,NA,NE,Clear,NW,Clear,August,1940,Stillwater,Payne,Okla,36,97,1940-08-10,NA
+11,87,62,25,82,NA,NA,NA,NA,NA,NE,Partly Cloudy,NW,Clear,August,1940,Stillwater,Payne,Okla,36,97,1940-08-11,NA
+12,93,66,27,74,NA,5:00 AM ; 7:05 PM,0.03,NA,NA,NW,Cloudy,SE,PartlyCloudy,August,1940,Stillwater,Payne,Okla,36,97,1940-08-12,NA
+13,96,69,27,87,NA,NA,0.03,NA,NA,SE,Partly Cloudy,SE,PartlyCloudy,August,1940,Stillwater,Payne,Okla,36,97,1940-08-13,NA
+14,94,71,23,79,NA,NA,NA,NA,NA,S,Partly Cloudy,SE,PartlyCloudy,August,1940,Stillwater,Payne,Okla,36,97,1940-08-14,NA
+15,81,70,11,74,NA,4:00 AM ; 1:00 PM,0.28000000000000003,NA,NA,SE,Partly Cloudy,SW,PartlyCloudy,August,1940,Stillwater,Payne,Okla,36,97,1940-08-15,NA
+16,77,69,8,74,0.13541666666666666,DN,0.18,NA,NA,SE,Cloudy,SE,Cloudy,August,1940,Stillwater,Payne,Okla,36,97,1940-08-16,1940-08-16T08:15:00Z
+17,87,70,17,82,0.8229166666666666,0.85416666666666663,1.86,NA,NA,NW,Partly Cloudy,SE,PartlyCloudy,August,1940,Stillwater,Payne,Okla,36,97,1940-08-17,1940-08-18T00:45:00Z
+18,83,69,14,74,NA,NA,0.05,NA,NA,NE,Clear,NW,Clear,August,1940,Stillwater,Payne,Okla,36,97,1940-08-18,NA
+19,78,55,23,69,NA,NA,NA,NA,NA,E,Clear,NE,Clear,August,1940,Stillwater,Payne,Okla,36,97,1940-08-19,NA
+20,77,50,27,69,NA,NA,NA,NA,NA,E,Clear,E,Clear,August,1940,Stillwater,Payne,Okla,36,97,1940-08-20,NA
+21,82,55,27,75,NA,NA,NA,NA,NA,SE,Clear,SE,Clear,August,1940,Stillwater,Payne,Okla,36,97,1940-08-21,NA
+22,86,61,25,75,NA,NA,NA,NA,NA,S,Clear,SE,Clear,August,1940,Stillwater,Payne,Okla,36,97,1940-08-22,NA
+23,85,62,23,80,NA,NA,NA,NA,NA,SE,Clear,SE,Clear,August,1940,Stillwater,Payne,Okla,36,97,1940-08-23,NA
+24,87,66,21,79,NA,NA,NA,NA,NA,S,Clear,S,Clear,August,1940,Stillwater,Payne,Okla,36,97,1940-08-24,NA
+25,92,64,28,84,NA,NA,NA,NA,NA,SE,Clear,S,Clear,August,1940,Stillwater,Payne,Okla,36,97,1940-08-25,NA
+26,94,71,23,88,NA,NA,NA,NA,NA,SE,Clear,SE,Clear,August,1940,Stillwater,Payne,Okla,36,97,1940-08-26,NA
+27,90,68,22,70,0.6354166666666666,0.6875,NA,NA,NA,SE,Partly Cloudy,SE,PartlyCloudy,August,1940,Stillwater,Payne,Okla,36,97,1940-08-27,1940-08-27T20:15:00Z
+28,86,63,23,75,0.1111111111111111,0.17708333333333334,0.91,NA,NA,S,Clear,S,Clear,August,1940,Stillwater,Payne,Okla,36,97,1940-08-28,1940-08-28T07:40:00Z
+29,83,64,19,75,NA,NA,NA,NA,NA,N,Cloudy,NE,PartlyCloudy,August,1940,Stillwater,Payne,Okla,36,97,1940-08-29,NA
+30,81,61,14,74,0.3958333333333333,0.49305555555555558,NA,NA,NA,SE,Clear,SE,PartlyCloudy,August,1940,Stillwater,Payne,Okla,36,97,1940-08-30,1940-08-30T14:30:00Z
+31,93,65,28,85,NA,DN,0.52,NA,NA,SE,Clear,SE,Clear,August,1940,Stillwater,Payne,Okla,36,97,1940-08-31,NA

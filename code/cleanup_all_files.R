@@ -115,42 +115,38 @@ datafile_info_mod <- map2(mydf, 1:6, function(z, y) {
 }
   )
 
-all_dat <- map_dfr(precip_dt_mod, bind_rows) 
+all_dat <- map_dfr(precip_dt_mod, bind_rows)  %>%
+  mutate(date = as.integer(date))
 
-all_dat_precip <- all_dat %>%
-  mutate(precip_time_of_beginning = as.numeric(precip_time_of_beginning),
-         precip_time_of_beginning_conv = rep(NA_character_, nrow(.)),
-         precip_time_of_beginning_conv = case_when(!is.na(precip_time_of_beginning) ~ format(times(as.numeric(precip_time_of_beginning)))),
-         precip_time_of_beginning_conv = case_when(!is.na(precip_time_of_beginning_conv) ~ paste)
+all_dat$precip_time_of_beginning_conv[!is.na(all_dat$precip_time_of_beginning_conv)] <- paste(all_dat$date_conv[!is.na(all_dat$precip_time_of_beginning_conv)], all_dat$precip_time_of_beginning_conv[!is.na(all_dat$precip_time_of_beginning_conv)])
 
 
+all_dat$precip_time_of_beginning_conv <- ymd_hms(all_dat$precip_time_of_beginning_conv, tz = "US/Central")
 
 
-# coerce to date object
-w1940_dat_datetime$
-
-
-write_csv(w1940_dat_datetime, "./data/processed/w1940_dat_datetime_20210901.csv")
+write_csv(all_dat, "./data/processed/all_dat_20211011.csv")
 
 # plot snowfall depth across month ----------------------------------------
 
-mydf_snow_plot <- w1940_dat_datetime %>%
-  drop_na(precip_snowfall_in_inches)
+mydf_snow_plot <- all_dat %>%
+  drop_na(precip_snowfall_in_inches) %>%
+  filter(month == "January")
 
 snowfall_plot <- ggplot(mydf_snow_plot) +
-  geom_line(aes(x = date_conv,
+  geom_line(aes(x = date,
                 y = precip_snowfall_in_inches,
                 group = 1)) +
+  facet_grid(rows = vars(year)) +
   theme(legend.position = 'bottom',
         panel.grid.minor.x = element_blank(),
         panel.grid.major = element_line(color = '#BABABA')) +
   labs(x = "Date",
        y = "Snowfall in inches",
-       title = "Snowfall in inches, January 1940 Stillwater Station", 
+       title = "Snowfall in inches, January 1930, 1935, 1940 Stillwater Station", 
        caption = 'Source: U. S. Department of Agriculture, Weather Bureau')
 
 snowfall_plot
 
-ggsave("./fig/194001_snowfall.png", snowfall_plot)
+ggsave("./fig/1930-40_January_snowfall.png", snowfall_plot)
 
 

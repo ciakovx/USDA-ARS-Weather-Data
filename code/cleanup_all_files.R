@@ -86,6 +86,7 @@ mydf <- map(dat, function(mydat) {
 
 # create date/time variable for precip ------------------------------------
 
+# for each file, extract the relevant data by the cell in which it appears
 datafile_info <- map(dat, function(z) {
   tibble(
     month = z$x2[3],
@@ -101,7 +102,7 @@ datafile_info <- map(dat, function(z) {
 
 # loop through each df within mydf
 # within each iteration, pull the month, year, location, etc from datafile_info
-# then for non-NA time_conv values, add date and time for parsing
+# format times using times() from the chron package
 datafile_info_mod <- map2(mydf, 1:6, function(z, y) {
   z %>%
     mutate(month = datafile_info[[y]]$month,
@@ -118,15 +119,18 @@ datafile_info_mod <- map2(mydf, 1:6, function(z, y) {
 }
   )
 
+# bind all rows together into a single file and coerce date to integer
 all_dat <- map_dfr(datafile_info_mod, bind_rows)  %>%
   mutate(date = as.integer(date))
 
+# for non-NA time_conv values, add date and time for parsing
+
 all_dat$precip_time_of_beginning_date[!is.na(all_dat$precip_time_of_beginning_date)] <- paste(all_dat$date_conv[!is.na(all_dat$precip_time_of_beginning_date)], all_dat$precip_time_of_beginning_date[!is.na(all_dat$precip_time_of_beginning_date)])
 
-
+# coerce to date object
 all_dat$precip_time_of_beginning_date <- ymd_hms(all_dat$precip_time_of_beginning_date, tz = "US/Central")
 
-
+# write to csv
 write_csv(all_dat, "./data/processed/all_dat_20211011.csv")
 
 # plot snowfall depth across month ----------------------------------------

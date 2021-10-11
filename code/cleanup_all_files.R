@@ -111,17 +111,20 @@ datafile_info_mod <- map2(mydf, 1:6, function(z, y) {
            state = rep(datafile_info[[y]]$state, nrow(.)),
            lat = rep(datafile_info[[y]]$lat, nrow(.)),
            long= rep(datafile_info[[y]]$long, nrow(.)),
-           date_conv = mdy(paste(month, date, year)))
+           date_conv = mdy(paste(month, date, year)),
+           precip_time_of_beginning_conv = as.numeric(precip_time_of_beginning),
+           precip_time_of_beginning_date = rep(NA_character_, nrow(.)),
+           precip_time_of_beginning_date = case_when(!is.na(precip_time_of_beginning_conv) ~ format(times(as.numeric(precip_time_of_beginning_conv)))))
 }
   )
 
-all_dat <- map_dfr(precip_dt_mod, bind_rows)  %>%
+all_dat <- map_dfr(datafile_info_mod, bind_rows)  %>%
   mutate(date = as.integer(date))
 
-all_dat$precip_time_of_beginning_conv[!is.na(all_dat$precip_time_of_beginning_conv)] <- paste(all_dat$date_conv[!is.na(all_dat$precip_time_of_beginning_conv)], all_dat$precip_time_of_beginning_conv[!is.na(all_dat$precip_time_of_beginning_conv)])
+all_dat$precip_time_of_beginning_date[!is.na(all_dat$precip_time_of_beginning_date)] <- paste(all_dat$date_conv[!is.na(all_dat$precip_time_of_beginning_date)], all_dat$precip_time_of_beginning_date[!is.na(all_dat$precip_time_of_beginning_date)])
 
 
-all_dat$precip_time_of_beginning_conv <- ymd_hms(all_dat$precip_time_of_beginning_conv, tz = "US/Central")
+all_dat$precip_time_of_beginning_date <- ymd_hms(all_dat$precip_time_of_beginning_date, tz = "US/Central")
 
 
 write_csv(all_dat, "./data/processed/all_dat_20211011.csv")
